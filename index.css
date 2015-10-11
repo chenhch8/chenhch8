@@ -3,44 +3,46 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+	padding: 50px;
 }
 
 audio {
     width: 250px;
     height: 30px;
-    position: absolute;
-    left: 40px;
-    top: 18px;
+    position: right;
     opacity: 0.2;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 55px;
     font-family: cursive, serif;
     color: #F28500;
-    position: absolute;
-    left: 350px;
-    top: 30px;
+    text-align: center;
 }
 
 p {
-    font-size: 30px;
+    font-size: 38px;
     font-family: cursive, serif;
-    color: #FFFF00;
-    position: absolute;
-    left: 400px;
-    top: 130px;
+    color: #FF9933;
+    text-align: center;
     line-height: 48px;
-    text-align: justify;
-    background-color: rgba(255, 255, 0, 0.13);
+    /*background-color: rgba(255, 255, 0, 0.13);*/
 }
 
+/*ul {
+	position: absolute;
+	top: 190px;
+	left: 230px;
+}*/
 img {
     position: absolute;
-    left: 680px;
+	z-index: 1;
+    /*left: 680px;
     top: 400px;
     width: 150px;
-    height: 160px;
+    height: 160px;*/
+	width: 250px;
+	height: 170px;
     transition-property:width 0.1s, height 0.1s;
     -webkit-transition:width 0.1s, height 0.1s;
     transition-timing-function: linear;
@@ -48,6 +50,43 @@ img {
 }
 
 img:hover {
-    width:160px;
-    height: 170px;
+	z-index: 2;
+	-moz-transform:scale(1.2,1.2); 
+    -webkit-transform:scale(1.2,1.2); 
+    -o-transform:scale(1.2,1.2); 
+}
+
+#pie_1 {
+	left: 555px;
+    top: 590px;
+}
+
+#pie_2 {
+	left: 810px;
+    top: 590px;
+}
+
+#pie_3 {
+	left: 1065px;
+    top: 590px;
+}
+
+form {
+	position: absolute;
+	top: 500px;
+	left: 530px;
+}
+
+input {
+	width: 700px;
+	height: 60px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+button {
+	width: 100px;
+	height: 62px;
+	font-size: 25px;
+	font-family: cursive;
 }
