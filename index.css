@@ -1,0 +1,53 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+audio {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    top: 18px;
+    opacity: 0.2;
+}
+
+h1{
+    font-size: 50px;
+    font-family: cursive, serif;
+    color: #F28500;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-family: cursive, serif;
+    color: #FFFF00;
+    position: absolute;
+    left: 400px;
+    top: 130px;
+    line-height: 48px;
+    text-align: justify;
+    background-color: rgba(255, 255, 0, 0.13);
+}
+
+img {
+    position: absolute;
+    left: 680px;
+    top: 400px;
+    width: 150px;
+    height: 160px;
+    transition-property:width 0.1s, height 0.1s;
+    -webkit-transition:width 0.1s, height 0.1s;
+    transition-timing-function: linear;
+    -webkit-transition-duration: 0.1s;
+}
+
+img:hover {
+    width:160px;
+    height: 170px;
+}
