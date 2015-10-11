@@ -2,14 +2,15 @@ body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-	padding: 50px;
+    text-align: center;
 }
 
 audio {
     width: 250px;
     height: 30px;
-    position: right;
+    position: absolute;
+	left: 10px;
+	right: 10px;
     opacity: 0.2;
 }
 
@@ -24,8 +25,8 @@ p {
     font-size: 38px;
     font-family: cursive, serif;
     color: #FF9933;
-    text-align: center;
     line-height: 48px;
+	
     /*background-color: rgba(255, 255, 0, 0.13);*/
 }
 
@@ -35,7 +36,7 @@ p {
 	left: 230px;
 }*/
 img {
-    position: absolute;
+    /*position: absolute;*/
 	z-index: 1;
     /*left: 680px;
     top: 400px;
@@ -55,25 +56,25 @@ img:hover {
     -webkit-transform:scale(1.2,1.2); 
     -o-transform:scale(1.2,1.2); 
 }
-
+/*
 #pie_1 {
 	left: 555px;
-    top: 590px;
+    top: 750px;
 }
 
 #pie_2 {
 	left: 810px;
-    top: 590px;
+    top: 680px;
 }
 
 #pie_3 {
 	left: 1065px;
-    top: 590px;
+    top: 680px;
 }
-
+*/
 form {
-	position: absolute;
-	top: 500px;
+	/*position: absolute;*/
+	top: 470px;
 	left: 530px;
 }
 
